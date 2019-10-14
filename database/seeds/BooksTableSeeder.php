@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use App\Repositorys\Models\Book as Book;
 class BooksTableSeeder extends Seeder
 {
     /**
@@ -35,7 +35,7 @@ class BooksTableSeeder extends Seeder
 
         // 登録
         foreach ($books as $book) {
-            \App\Book::create($book);
+            Book::create($book);
         }
     }
 }

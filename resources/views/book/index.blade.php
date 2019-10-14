@@ -1,4 +1,4 @@
-@extends('book/layout')
+@extends('/layout')
 @section('content')
 <div class="container ops-main">
 <div class="row">

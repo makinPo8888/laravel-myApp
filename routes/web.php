@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::resource('book', 'BookController');
+
+Route::get('motion', 'MotionController@index');
